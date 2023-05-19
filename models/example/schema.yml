@@ -2,7 +2,7 @@
 version: 2
 
 models:
-  - name: citiesaaa
+  - name: test
     description: "A starter dbt model"
     columns:
       - name: id
@@ -11,7 +11,7 @@ models:
           - unique
           - not_null
 
-  - name: citiesbbb
+  - name: test2
     description: "A starter dbt model"
     columns:
       - name: id

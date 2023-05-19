@@ -3,5 +3,5 @@
 {{ config(materialized='table') }}
 
 select *
-from {{ ref('cities') }}
+from {{ ref('test') }}
 where id > 1
